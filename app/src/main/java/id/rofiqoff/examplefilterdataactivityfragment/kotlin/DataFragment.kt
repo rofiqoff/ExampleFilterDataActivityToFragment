@@ -1,12 +1,12 @@
-package id.rofiqoff.examplefilterdataactivityfragment
+package id.rofiqoff.examplefilterdataactivityfragment.kotlin
 
 
-import android.content.Context
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import id.rofiqoff.examplefilterdataactivityfragment.*
 import kotlinx.android.synthetic.main.fragment_data.*
 
 /**
@@ -15,22 +15,6 @@ import kotlinx.android.synthetic.main.fragment_data.*
 class DataFragment : Fragment() {
 
     private var adapter: Adapter<Data, DataViewHolder>? = null
-
-    val datas: ArrayList<Data>
-        get() = arrayListOf<Data>().apply {
-            add(Data("Real Madrid"))
-            add(Data("Barcelona"))
-            add(Data("Manchester United"))
-            add(Data("Manchester City"))
-            add(Data("Liverpool"))
-            add(Data("Juventus"))
-            add(Data("Chelsea"))
-            add(Data("Atletico Madrid"))
-            add(Data("Paris Saint German"))
-            add(Data("Ac Milan"))
-            add(Data("Inter Milan"))
-            add(Data("AS Roma"))
-        }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,

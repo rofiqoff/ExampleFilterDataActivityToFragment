@@ -1,9 +1,11 @@
-package id.rofiqoff.examplefilterdataactivityfragment
+package id.rofiqoff.examplefilterdataactivityfragment.kotlin
 
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
 import androidx.appcompat.app.AppCompatActivity
+import id.rofiqoff.examplefilterdataactivityfragment.PagerAdapter
+import id.rofiqoff.examplefilterdataactivityfragment.R
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
